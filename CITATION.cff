@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: "thought-v-response: evidence-backed conversation drift benchmark"
+message: "If you use this tool, please cite it."
+authors:
+  - name: "QuietFire AI"
+version: 0.1.0
+license: MIT
+repository-code: "https://github.com/QuietFireAI/thought-v-response"
+abstract: >
+  A conversation-level instrument that scores the lexical drift between a model's
+  thinking trace and its response on each turn, decomposing every score into the
+  matched phrases that produced it. A drift proxy, not a measure of honesty.

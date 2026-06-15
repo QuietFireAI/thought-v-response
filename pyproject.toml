@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "thought-v-response"
+version = "0.1.0"
+description = "Conversation-level, evidence-backed drift benchmark, built on open-mind."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "QuietFire AI", email = "support@quietfireai.com" }]
+dependencies = [
+  "open-mind @ git+https://github.com/QuietFireAI/thought-cycle.git#subdirectory=open-mind",
+]
+
+[project.urls]
+Homepage = "https://github.com/QuietFireAI/thought-v-response"
+Cycle = "https://github.com/QuietFireAI/thought-cycle"
+
+[tool.setuptools.packages.find]
+include = ["thought_v_response*"]
