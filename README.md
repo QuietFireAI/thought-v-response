@@ -51,7 +51,7 @@ is narrow.
 
 ```bash
 pip install git+https://github.com/QuietFireAI/thought-v-response.git
-python -m thought_v_response.examples.demo   # or: python examples/demo.py
+python examples/demo.py
 ```
 
 ```python
