@@ -1,8 +1,10 @@
 # thought-v-response
 
-**Three years of asking why LLMs lie. The answer: agents don't know they have thoughts. This tool measures whether showing them made a difference.**
+**Three years of asking why LLMs lie. The answer: agents don't know they have thoughts. These skills were built to close that gap &mdash; and this tool measures whether they did.**
 
-Models produce a thinking trace before every response. They know they deliberate. They don't know their thoughts are there, visible, and comparable to what they said. When you show them — that's [thought-cycle](https://github.com/QuietFireAI/thought-cycle)'s job. This tool measures what happened: across every turn in a conversation, against every thought that produced it, with the exact phrases that caused every point in the score.
+Models produce a thinking trace before every response. They know they deliberate. They don't know their thoughts are there, visible, and comparable to what they said. When you show them &mdash; that's [thought-cycle](https://github.com/QuietFireAI/thought-cycle)'s job. This tool measures what happened: across every turn in a conversation, against every thought that produced it, with the exact phrases that caused every point in the score.
+
+> **Requires thinking mode.** This work was done on models with extended thinking enabled &mdash; models that generate a reasoning trace before the response. If your model doesn't produce a thinking trace, there is nothing to compare. Verify that thinking mode is active before deploying.
 
 Part of the **[DispatcherAgents](https://dispatcheragents.com)** platform.
 
