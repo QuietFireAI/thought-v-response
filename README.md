@@ -2,8 +2,6 @@
 
 **Three years of asking why LLMs lie. The answer: agents don't know they have thoughts. These skills were built to close that gap -- and this tool measures whether they did.**
 
-> **Requires thinking mode.** This work was done on models with extended thinking enabled -- models that generate a reasoning trace before the response. If your model doesn't produce a thinking trace, there is nothing to compare. Verify that thinking mode is active before deploying. This work was most successful on Anthropic Sonnet 4.6 thinking.
-
 ---
 
 ## Try it right now -- no code required
@@ -15,6 +13,8 @@ Now copy those thoughts and paste them back into the chat. Tell your AI: *these 
 Watch what it does next.
 
 That is the finding. The tools automate what that exercise proves. The difference between the response your agent gives without seeing its thoughts, and the response it gives after -- that gap is what this project measures.
+
+> **Requires thinking mode.** This work was done on models with extended thinking enabled -- models that generate a reasoning trace before the response. If your model doesn't produce a thinking trace, there is nothing to compare. Verify that thinking mode is active before deploying. This work was most successful on Anthropic Sonnet 4.6 thinking.
 
 ---
 
