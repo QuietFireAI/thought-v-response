@@ -1,6 +1,6 @@
 # thought-v-response
 
-**Over the years, LLMs have given responses completely untethered from their own reasoning -- so disconnected from what they were actually thinking that it could be mistaken for dishonesty. It wasn't. Agents don't know they have thoughts. These skills were built to close that gap -- and this tool measures whether they did.**
+**Over the years, I've experienced LLMs giving responses completely untethered from their own reasoning -- so disconnected from what they were actually thinking that it could be mistaken for dishonesty. It wasn't. Agents don't know they have thoughts. These skills were built to close that gap -- and this tool measures whether they did.**
 
 ---
 
