@@ -225,21 +225,23 @@ thought-v-response/
 
 ---
 
-## Platform
+## What else is coming
+
+These repos are the first components of a larger platform. Each one addresses a different gap between what an agent thinks and what it does.
 
 | Repo | What it does |
 |---|---|
-| **[thought-cycle](https://github.com/QuietFireAI/thought-cycle)** | Shows the agent its own thoughts -- three skills |
-| **[thought-v-response](https://github.com/QuietFireAI/thought-v-response)** | Measures the gap across the whole conversation (this repo) |
-| **agent-open-mind** *(coming)* | Coordinating agent reads what its sub-agents were thinking |
-| **sleep-marks** *(coming)* | Carries reasoning state across session breaks |
-| **splitvantage** *(coming)* | Same task, two models -- surfaces what each one's reasoning dropped |
+| **[thought-cycle](https://github.com/QuietFireAI/thought-cycle)** | Shows the agent its own thinking before it answers, scores the gap between thought and response, and reads the draft cold before it ships. Three skills, one install. |
+| **[thought-v-response](https://github.com/QuietFireAI/thought-v-response)** | Measures the gap across a full conversation -- per-turn scores, sourced phrases, JSON thought file. (This repo.) |
+| **agent-open-mind** *(coming)* | A coordinating agent that reads what its sub-agents were thinking -- not just what they returned. Surfaces the reasoning behind delegated work before acting on the result. |
+| **sleep-marks** *(coming)* | Carries reasoning state across session breaks. Detailed handoff of where the model was heading and why, so context doesn't drop between sessions. |
+| **splitvantage** *(coming)* | Sends the same task to two models, passes each model's thinking as context, and surfaces what each one's reasoning dropped. When a plan is made, you see which model was more honest about its own uncertainty. |
 
 ---
 
 ## License
 
-MIT -- QuietFireAI / [dispatcheragents.com](https://dispatcheragents.com)
+MIT -- QuietFireAI / [quietfireai.com](https://quietfireai.com)
 
 ---
 
